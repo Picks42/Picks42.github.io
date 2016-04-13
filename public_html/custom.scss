@@ -1418,7 +1418,7 @@ ol li {
 }
 .plus-nav__logo:hover,
 .plus-nav__logo:focus {
-    
+
 }
 .plus-nav__logo,
 .plus-nav__logo:active {
@@ -1426,7 +1426,7 @@ ol li {
     width: 16.5em;
     margin-top: 0.5em;
     height: 1.875em;
-    
+
     background-size: 100%;
     float: left;
     -webkit-transition: none;
@@ -1916,7 +1916,7 @@ a:active {
     margin-right: 0
 }
 .page-width {
-        width: auto;
+    width: auto;
     max-width: 1210px;
 }
 .animate-content-up {
@@ -3102,7 +3102,7 @@ button {
 .plus-header__headline {
     margin: 0;
     padding: 120px 0 40px
-        
+
 }
 @media screen and (min-width: 46.875em) {
     .plus-header__headline {
@@ -3368,19 +3368,19 @@ only screen and (max-width: 46.8125em) and (min-resolution: 1.3dppx) {
 }
 .white_color{
     color: #fff;
-    
+
 }
 @font-face {
-   font-family: myFirstFont;
-   src: url(sansation_light.woff);
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
 }
 .page_full{
     max-width: 100% !important;
     padding: 0 !important;
 }
 @font-face {
-   font-family: myFirstFont;
-   src: url(sansation_light.woff);
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
 }
 .atom{
     min-width: 360px;
@@ -3392,4 +3392,30 @@ only screen and (max-width: 46.8125em) and (min-resolution: 1.3dppx) {
     background: url(pic/physics.jpg);
     background-size:cover;
     text-indent: -999999px;
+}
+.phy_img{
+    margin-top: 120px;
+}
+blockquote *{
+    font-family: 'Poiret One', cursive;
+}
+body{
+
+    font-family: 'Josefin Slab', serif;
+}
+#grid{
+    width: 80%;
+    margin: auto;
+    .item{
+        background: rgb(135,199,135);
+        width: 320px;
+        height: 320px;
+    }
+}
+.fanc img{
+    height: auto;
+    max-width: 50px;
+}
+.fancybox-wrap{
+    z-index: 10000;
 }
