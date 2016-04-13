@@ -1,0 +1,709 @@
+
+
+
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html class="no-js" lang="EN">
+
+    <!-- Mirrored from www.shopify.in/plus/contact by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Apr 2016 16:59:07 GMT -->
+    <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
+    <head>
+        <link href="../assets2/standalone/plus/pages/index.css" rel="stylesheet" type="text/css"/>
+    </head>
+
+    <body class="page--plus-contact">
+
+        <div class="signup-form-wrapper signup--hidden " define="{form_9288: new ShopifyMarketing.SignupForm(this)}">
+            <form class="marketing-form signup-form stateful-form " novalidate="novalidate" autocomplete="off" data-namespace="form_9288" data-hidden-fields-namespace="hiddenFields_9288" bind-event-submit="form_9288.handleSubmit(this, event)" action="https://app.shopify.com/services/signup/setup" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+
+
+
+                <div class=" email" define='{email9288:
+                     new ShopifyMarketing.StatefulField(
+                     "email",
+                     form_9288,
+                     this,
+                     {
+                     required: true,
+                     validate: true,
+                     showSuccess: true,
+                     showError: true
+                     },
+                     {}
+                     )}'>
+                    <div context='email9288'>
+                        <label bind-class="{
+                               &#39;js-has-error&#39;: state.error,
+                               &#39;js-is-focused&#39;: state.focus,
+                               &#39;js-is-filled&#39;: state.filled || state.value.length &gt; 0,
+                               &#39;js-has-success&#39;: state.success
+                               }" class="marketing-input-wrapper"><span class="marketing-label">Email address</span><input name="signup[email]" type="email" novalidate="novalidate" autocomplete="off" bind="state.value" bind-event-focus="handleFocus()" bind-event-blur="ShopifyMarketing.context.form_9288
+                                                                                                                    .handleFieldBlur(ShopifyMarketing.context.email9288)" bind-event-keyup="null" classes="" class="marketing-input" id="9288_signup_email" /><span class="marketing-form__messages"><span bind="displayError()" class="error hide" bind-show="state.error == true"></span></span></label>
+
+
+
+                    </div>
+                </div>
+
+
+                <div class=" password" define='{password9288:
+                     new ShopifyMarketing.StatefulField(
+                     "password",
+                     form_9288,
+                     this,
+                     {
+                     required: true,
+                     validate: true,
+                     showSuccess: true,
+                     showError: true
+                     },
+                     {}
+                     )}'>
+                    <div context='password9288'>
+                        <label bind-class="{
+                               &#39;js-has-error&#39;: state.error,
+                               &#39;js-is-focused&#39;: state.focus,
+                               &#39;js-is-filled&#39;: state.filled || state.value.length &gt; 0,
+                               &#39;js-has-success&#39;: state.success
+                               }" class="marketing-input-wrapper"><span class="marketing-label">Password</span><input name="signup[password]" type="password" novalidate="novalidate" autocomplete="off" bind="state.value" bind-event-focus="handleFocus()" bind-event-blur="ShopifyMarketing.context.form_9288
+                                                                                                               .handleFieldBlur(ShopifyMarketing.context.password9288)" bind-event-keyup="null" classes="" class="marketing-input" id="9288_signup_password" /><span class="marketing-form__messages"><span bind="displayError()" class="error hide" bind-show="state.error == true"></span></span></label>
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class=" shop_name" define='{shop_name9288:
+                     new ShopifyMarketing.StatefulField(
+                     "shop_name",
+                     form_9288,
+                     this,
+                     {
+                     required: true,
+                     validate: true,
+                     showSuccess: true,
+                     showError: true
+                     },
+                     {}
+                     )}'>
+                    <div context='shop_name9288'>
+                        <label bind-class="{
+                               &#39;js-has-error&#39;: state.error == true,
+                               &#39;js-is-pending&#39;: state.pending == true,
+                               &#39;js-has-success&#39;: state.success == true,
+                               &#39;js-has-success-message&#39;: state.success == true,
+                               &#39;js-is-focused&#39;: state.focus == true,
+                               &#39;js-has-detail&#39;: state.error &amp;&amp; state.errors.existingAdmin,
+                               &#39;js-is-filled&#39;: state.filled == true || state.value.length &gt; 0,
+                               }" class="marketing-input-wrapper shop_name "><span class="marketing-label">Your store name</span><input name="signup[shop_name]" type="text" novalidate="novalidate" autocomplete="off" bind="state.value" bind-event-focus="handleFocus()" bind-event-blur="ShopifyMarketing.context.form_9288
+                                                                                                                                 .handleFieldBlur(ShopifyMarketing.context.shop_name9288)" bind-event-keyup="ShopifyMarketing.context.form_9288
+                                                                                                                                 .handleFieldKeyup(event, ShopifyMarketing.context.shop_name9288)" classes="" class="marketing-input" id="9288_signup_shop_name" /><span class="marketing-form__messages"><span bind="displayError()" class="error hide" bind-show="state.error == true &amp;&amp; state.pending == false" bind-unsafe-html="displayError()"></span></span></label>
+
+
+
+                    </div>
+                </div>
+
+
+                <div define="{hiddenFields_9288: new ShopifyMarketing.HiddenFields({
+                     source:       &quot;&quot;,
+                     signup_code:  &quot;&quot;,
+                     signup_types: [],
+                     theme:        &quot;&quot;
+                     }, this)}">
+
+                    <div context="hiddenFields_9288">
+                        <input type="hidden" name="ref"             value="">
+                        <input type="hidden" name="language"        value="en">
+                        <input type="hidden" name="country"         value="in">
+                        <input type="hidden" name="_y"              bind="fields.y">
+                        <input type="hidden" name="forwarded_host"  bind="fields.forwarded_host">
+                        <input type="hidden" name="ssid"            bind="fields.ssid">
+                        <input type="hidden" name="source"          bind="fields.source">
+                        <input type="hidden" name="signup_code"     bind="fields.signup_code">
+
+
+                        <input type="hidden" name="signup_types[]" bind-disabled="fields.signup_types" bind="fields.signup_type">
+
+                        <input type="hidden" name="extra[selected_theme]" bind="fields.theme">
+
+                    </div>
+
+                </div>
+
+                <div class="">
+                    <button name="button" type="submit" class="marketing-button marketing-form__button " bind-disabled="form_9288.pending == true">Create your store</button>
+                </div>
+            </form>
+        </div>
+
+        <div id="SiteContainer">
+
+
+            <div id="SiteNavContainer" role="banner">
+                <div class="marketing-nav-wrapper">
+
+                    <nav
+                        class="marketing-nav marketing-nav__primary"
+                        id="ShopifyMainNav"
+                        itemscope="itemscope"
+                        itemtype="http://schema.org/SiteNavigationElement"
+                        role="navigation"
+                        aria-label="Main Navigation">
+                        <a class="in-page-link skip-to-main visuallyhidden focusable" data-ga-event="Main Nav" data-ga-action="Skip to content" href="#Main">Skip to Content</a>
+                        <div class="page-width page-width--fluid">
+
+                            <button type="button" class="marketing-nav__hamburger js-drawer-open-left"
+                                    aria-controls="NavDrawer" aria-expanded="false">
+                                <span class="visuallyhidden">Open Main Navigation</span>
+                            </button>
+
+                            <div class="marketing-nav__logo">
+                                <a class="icon plus-nav__logo" href="../plus.html">
+                                    <span class="visuallyhidden">Home</span>
+                                </a>      </div>
+
+                            <ul class="marketing-nav__items display--desktop">
+
+                                <li>
+                                    <a class="display--mobile marketing-nav__item " itemprop="name" href="../plus.html">Home</a>
+                                </li>
+
+
+                                <li>
+                                    <a class="marketing-nav__item " itemprop="name" href="features.html">Features</a>
+                                </li>
+
+
+                                <li>
+                                    <a class="marketing-nav__item " itemprop="name" href="customers.html">Customers</a>
+                                </li>
+
+
+                                <li>
+                                    <a class="marketing-nav__item " itemprop="name" href="partners.html">Partners</a>
+                                </li>
+
+
+                                <li>
+                                    <a class="js-unset-contact-header marketing-nav__item--get-started marketing-nav__item active" itemprop="name" href="contact.html">Get Started</a>
+                                </li>
+
+
+                            </ul>
+
+                            <ul class="marketing-nav__items marketing-nav__user">
+
+                            </ul>
+
+                        </div>
+                    </nav>
+
+                </div>
+
+                <div id="NavDrawer" class="drawer drawer--left">
+                    <div class="drawer__inner">
+                        <div class="drawer__close js-drawer-close">
+                            <button class="icon icon-close" aria-controls="NavDrawer" aria-expanded="true">
+                                <span class="visuallyhidden">Close Main Navigation</span>
+                            </button>
+                        </div>
+
+                        <nav role="navigation" aria-label="Main Site Navigation">
+                            <ul class="drawer__items drawer__items--primary">
+                                <li>
+                                    <a href="../plus.html">Home</a>
+                                </li>
+
+                                <li>
+                                    <a href="features.html">Features</a>
+                                </li>
+
+                                <li>
+                                    <a href="customers.html">Customers</a>
+                                </li>
+
+                                <li>
+                                    <a href="partners.html">Partners</a>
+                                </li>
+
+                                <li>
+                                    <a href="contact.html">Get Started</a>
+                                </li>
+
+
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+
+            </div>
+
+
+
+            <div id="PageContainer" class="page-container">
+                <main role="main" id="Main" class="animate-content-up animate-content-up--first">
+
+
+                    <div class="plus-header--image--contact plus-wallpaper-block plus-wallpaper-block--header">
+                        <div class="plus-wallpaper-block__content">
+                            <div class="page-width">
+                                <div class="grid-container">
+                                    <h1 class="plus-wallpaper-block__heading animate-content-up animate-content-up--second ">Let&#39;s get started with Shopify Plus</h1>
+
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="page-width">
+                        <h2 class="heading--centered">
+                            Leave us your details and we&#39;ll get in touch
+                        </h2>
+                    </div>
+
+                    <div class="page-block">
+                        <div class="page-width">
+                            <div class="grid-container">
+                                <form id="PlusContactForm" class="plus-form" novalidate="novalidate" action="https://www.shopify.in/plus/contact" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" /><input type="hidden" name="authenticity_token" value="yb6yKGUEcZp4E+hfD644tjfVNzXuKcJfY54eyewaWlNyLN6/k7O9o0SiBHAOByA+BIwYr4nalso8rIzUvzmBNw==" />
+                                    <input type="hidden" name="api_token" id="api_token" value="40f251b9-6052-4a33-a58d-9b65e5156755" />
+                                    <input type="hidden" name="application[partner_ref_code]" id="application_partner_ref_code" />
+                                    <input type="hidden" name="application[utm_medium]" id="application_utm_medium" />
+                                    <input type="hidden" name="application[utm_source]" id="application_utm_source" />
+                                    <input type="hidden" name="application[utm_campaign]" id="application_utm_campaign" />
+                                    <input type="hidden" name="application[utm_content]" id="application_utm_content" />
+
+                                    <input type="hidden" name="application[dm_term]" id="application_dm_term" />
+                                    <input type="hidden" name="application[dm_network]" id="application_dm_network" />
+                                    <input type="hidden" name="application[dm_boid]" id="application_dm_boid" />
+                                    <input type="hidden" name="application[dm_campaign_id]" id="application_dm_campaign_id" />
+                                    <input type="hidden" name="application[dm_matchtype]" id="application_dm_matchtype" />
+                                    <input type="hidden" name="application[dm_ad_position]" id="application_dm_ad_position" />
+                                    <input type="hidden" name="application[dm_ad_id]" id="application_dm_ad_id" />
+                                    <input type="hidden" name="application[dm_site_target]" id="application_dm_site_target" />
+
+
+                                    <div class="grid-item grid-7">
+
+                                        <fieldset class="gutter-bottom--half plus-form__fieldset">
+
+
+                                            <label class="plus-form__input-wrapper " for="PlusContactFormFullName">
+
+                                                <input type="text" name="application[full_name]" id="PlusContactFormFullName" placeholder="Full name" class="js-check-name-field plus-form__input" />
+
+                                                <span class="plus-form__label">
+                                                    Full name
+                                                </span>
+
+                                                <span class="plus-form__error-message hidden">
+                                                    <i class="icon plus-form__error-icon">!</i>
+
+                                                    <span class="plus-form__error-message-text">
+
+                                                    </span>
+                                                </span>
+                                            </label>
+
+
+                                            <label class="plus-form__input-wrapper " for="PlusContactFormEmail">
+
+                                                <input type="email" name="application[email]" id="PlusContactFormEmail" placeholder="Business email" class="js-check-input-field plus-form__input" />
+
+                                                <span class="plus-form__label">
+                                                    Business email
+                                                </span>
+
+                                                <span class="plus-form__error-message hidden">
+                                                    <i class="icon plus-form__error-icon">!</i>
+
+                                                    <span class="plus-form__error-message-text">
+
+                                                    </span>
+                                                </span>
+                                            </label>
+
+
+                                            <label class="plus-form__input-wrapper " for="PlusContactFormPhone">
+
+                                                <input type="tel" name="application[phone]" id="PlusContactFormPhone" placeholder="Business phone" class="js-check-input-field plus-form__input" />
+
+                                                <span class="plus-form__label">
+                                                    Business phone
+                                                </span>
+
+                                                <span class="plus-form__error-message hidden">
+                                                    <i class="icon plus-form__error-icon">!</i>
+
+                                                    <span class="plus-form__error-message-text">
+
+                                                    </span>
+                                                </span>
+                                            </label>
+                                        </fieldset>
+
+
+                                        <fieldset class="plus-form__fieldset">
+                                            <h2 class="heading--4">Are you currently a Shopify customer?</h2>
+
+                                            <div class="plus-form__radio-wrapper">
+
+                                                <span class="plus-form__radio-wrapper">
+                                                    <input type="radio" name="application[currently_shopify_customer]" id="PlusContactFormShopifyCustomerYes" value="yes" class="plus-form__radio" />
+                                                    <label class="plus-form__radio-label" for="PlusContactFormShopifyCustomerYes">
+                                                        Yes
+                                                    </label></span>
+
+
+
+                                                <span class="plus-form__radio-wrapper">
+                                                    <input type="radio" name="application[currently_shopify_customer]" id="PlusContactFormShopifyCustomerNo" value="no" class="plus-form__radio" checked="checked" />
+                                                    <label class="plus-form__radio-label" for="PlusContactFormShopifyCustomerNo">
+                                                        No
+                                                    </label></span>
+
+                                            </div>
+
+                                        </fieldset>
+                                    </div>
+
+                                    <div class="grid-item grid-8 grid-push-1">
+
+                                        <fieldset class="plus-form__fieldset">
+
+
+
+                                            <label class="plus-form__input-wrapper " for="PlusContactFormWebsite">
+
+                                                <input type="text" name="application[website]" id="PlusContactFormWebsite" placeholder="Website URL" class="js-check-input-field plus-form__input" />
+
+                                                <span class="plus-form__label">
+                                                    Website URL
+                                                </span>
+
+                                                <span class="plus-form__error-message hidden">
+                                                    <i class="icon plus-form__error-icon">!</i>
+
+                                                    <span class="plus-form__error-message-text">
+
+                                                    </span>
+                                                </span>
+                                            </label>
+
+
+
+                                            <label class="plus-form__input-wrapper plus-form__select-wrapper " for="PlusContactFormHearAboutUs">
+                                                <select name="application[where_did_you_hear_about_us]" id="application_where_did_you_hear_about_us" class="plus-form__input plus-form__select"><option value="">Where did you hear about us?</option><option value="Search Engine">Search Engine</option>
+                                                    <option value="Advertisement">Advertisement</option>
+                                                    <option value="Social Network">Social Network</option>
+                                                    <option value="Tradeshow/Events">Tradeshow/Events</option>
+                                                    <option value="Referral">Referral</option>
+                                                    <option value="Shopify Blog">Shopify Blog</option>
+                                                    <option value="Other">Other</option></select>
+
+                                                <span class="plus-form__label">
+                                                    Where did you hear about us?
+                                                </span>
+
+                                                <span class="plus-form__error-message hidden">
+                                                    <i class="icon plus-form__error-icon">!</i>
+                                                    <span class="plus-form__error-message-text">
+
+                                                    </span>
+                                                </span>
+                                            </label>
+
+
+                                            <label class="plus-form__input-wrapper plus-form__select-wrapper " for="PlusContactFormNotes">
+                                                <select name="application[notes]" id="application_notes" class="plus-form__input plus-form__select"><option value="">What is your biggest ecommerce challenge?</option><option value="Growth">Growth</option>
+                                                    <option value="Technology">Technology</option>
+                                                    <option value="Design">Design</option>
+                                                    <option value="Support">Support</option>
+                                                    <option value="Other">Other</option></select>
+
+                                                <span class="visuallyhidden plus-form__label">
+                                                    What is your biggest ecommerce challenge?
+                                                </span>
+
+                                                <span class="plus-form__error-message hidden">
+                                                    <i class="icon plus-form__error-icon">!</i>
+                                                    <span class="plus-form__error-message-text">
+
+                                                    </span>
+                                                </span>
+                                            </label>
+                                        </fieldset>
+
+
+                                        <button name="button" type="submit" class="plus-button plus-button__icon-wrapper plus-form__submit">
+                                            Confirm <i class="plus-button__icon"></i>
+                                        </button>
+                                    </div>
+                                </form>    </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                </main>
+
+                <footer class='plus-footer animate-content-up animate-content-up--last'>
+                    <div class="footer--main page-block page-block--lowlight page-block--footer">
+                        <div class="page-width">
+                            <h2 class='lowlight__heading'>
+                                See what our customers have to say about us
+                            </h2>
+
+                            <p class='plus-footer__subhead lowlight__heading'>
+
+
+                                Take a look at our <a class="lowlight__link" href="customers.html">case studies</a>
+
+                            </p>
+
+
+                            <p class='plus-footer__disclaimer'>
+                                All rights reserved Shopify Inc. &copy; 2016 - <a href="../plus.html">Enterprise ecommerce</a>
+                            </p>
+                        </div>
+                    </div>
+                </footer>
+
+
+            </div>
+        </div>
+
+        <div class="plus-form__fatal-error">
+            <p class="page-width">
+                Sorry but we’re having some problems sending your details. Please send us an email at <a href="mailto:plus@shopify.com">plus@shopify.com</a> or try again later.
+            </p>
+        </div>
+
+        <div class="plus-form__message">
+            <div class="plus-form__message-wrapper">
+                <div class="plus-form__message-icon">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Generator: Adobe Illustrator 18.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                         viewBox="0 0 82.6 82.6" enable-background="new 0 0 82.6 82.6" xml:space="preserve">
+                    <g>
+                    <g id="CheckMark">
+                    <polyline fill="none" stroke="#F1F1EF" stroke-miterlimit="10" points="23.3,42 36.3,55.1 59.3,31.6 		"/>
+                    </g>
+                    <g>
+                    <path fill="#F1F1EF" d="M41.3,80.7c-21.5,0-39-17.5-39-39c0-21.5,17.5-39,39-39c21.5,0,39,17.5,39,39
+                          C80.3,63.2,62.8,80.7,41.3,80.7z M41.3,3.7c-20.9,0-38,17-38,38c0,20.9,17,38,38,38c20.9,0,38-17,38-38
+                          C79.3,20.7,62.3,3.7,41.3,3.7z"/>
+                    </g>
+                    </g>
+                    </svg>
+
+                </div>
+
+                <div class="page-width plus-form__message-content">
+                    <h1 class="plus-form__message-title">
+                        Thank you for reaching out
+                    </h1>
+                    <p class="plus-form__message-copy">
+                        We’ll be in touch with you shortly. In the meantime, browse our <a href="customers.html">case studies</a> or send us an email at <a href="mailto:plus@shopify.com">plus@shopify.com</a> if you have any other questions.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+
+        <script src="../../cdn.shopify.com/assets2/standalone/plus/application-d0467e8bfaa9a77ad8c1b3b308c00529.js"></script>
+
+        <script>
+            window.App.config = {
+                signupHost: 'app.shopify.com'
+            };
+        </script>
+
+
+        <script>
+            window.I18n.data = {"forms": {"errors": {"throttled": "Too many requests from this IP, try again later.", "global": {"generic": "Sorry, something went wrong. Please try again later."}, "shop_name": {"empty": "Please enter a store name", "minlength": "Your store name must be at least 4 characters", "existingAdmin": "A store with that name already exists. If you are the owner you can \u003ca href=\"https://%{err}/admin\"\u003elog in here\u003c/a\u003e", "message": "%{err}", "matchesPassword": "Your store name can't be the same as your password"}, "email": {"empty": "Please enter an email address", "invalid": "Please enter a valid email address", "member_exists": "You are already subscribed to this list", "generic": "Sorry, something went wrong. Please try again later."}, "password": {"empty": "Please enter a password", "minlength": "Password must be at least 5 characters", "spaces": "Password cannot contain spaces"}, "subdomain": {"empty": "Please enter a subdomain", "minlength": "Your subdomain must be at least 4 characters", "multiple": "Multiple subdomains are associated with this email", "suggest": "Did you mean %{err}?", "invalid": "Please enter a valid subdomain", "existingAdmin": "A store with that subdomain already exists. If you are the owner you can \u003ca href=\"https://%{err}/admin\"\u003elog in here\u003c/a\u003e"}}}, "modal": {"home": "Home", "close": "Close"}, "signup": {"header": "Start your free 14-day trial of Shopify", "create_now": "Create your store", "tooltip": "Start your free 14-day trial today!", "labels": {"email": "Email", "password": "Password", "shop_name": "Store name", "subdomain": "Store URL"}, "placeholders": {"shop_name": "Your store name", "email": "Email address", "password": "Password", "subdomain": "Store URL"}, "checking": "Checking...", "success_messages": {"email": "Got it", "password": "Looks great", "shop_name": "That name is available!", "subdomain": "You'll use this to log in to your store"}, "details": {"shop_name": "If you are the owner you can \u003ca href=\"https://%{admin}/admin\"\u003elog in here\u003c/a\u003e"}, "store_address_suffix": ".myshopify.com"}, "online": {"examples": {"modal": {"nav_next": "Next", "nav_prev": "Prev", "cta_title": "Start your free 14-day trial today!", "cta_button": "Get started", "themes_cta_button": "Start with this theme"}}}, "home": {"login": {"page_title": "Login — Shopify", "meta_description": "", "log_in_heading": "Log in to your Shopify store", "email_label": "Email address", "password_label": "Password", "store_address_label": "Store address", "store_address_suffix": ".myshopify.com", "store_address_placeholder": "your-store", "remember_label": "Remember me", "shopify_mobile": "Shopify Mobile", "mobile_link_alt_text": "Learn more", "mobile_cta": "Manage your store on the go from your iPhone", "promo_cta": {"heading_html": "Running a\u003cbr\u003e high volume store?", "link": "Discover our enterprise solution"}, "forgot": "Forgot?", "forgot_label": "Forgot your password?", "log_in": "Log in", "login_suggestion": {"part_1": "You can also login by adding", "slash_admin": "/admin", "part_2": "to the end of your myshopify.com address.", "example": "Example:", "example_url": "http://examplestore.myshopify.com/admin"}, "errors": {"no_match": "The email or password you entered is incorrect.", "subdomain": {"empty": "Please enter your store address.", "suggest": "Did you mean %{err}?", "invalid": "The store address you entered is incorrect. Check the email we sent when you created your store to find  your store address.", "multiple": "You have more than one store associated with your email address. Please enter your store address to login."}, "email": {"empty": "Please enter an email address", "invalid": "Please enter a valid email address"}, "password": {"empty": "Please enter a password", "minlength": "Password must be at least 5 characters", "spaces": "Password cannot contain spaces"}, "generic": {"invalid": "The email or password you entered is incorrect.", "throttled": "There were too many login attempts from your IP. Please try again later."}}, "multiple_domains": "Have multiple stores?"}, "logout": {"page_title": "You’ve successfully logged out.", "subhead_html": "Thank you for using Shopify. You can \u003ca href=\"/login\"\u003elog back in\u003c/a\u003e any time!", "meta_description": "Everything you need to sell. Build your online store with Shopify's ecommerce software and easily sell in person with Shopify's iPad POS.\n", "temperature": "Temperature", "weather": "Weather", "segments": {"weather": ["Freezing!", "It's cold out!", "Chilly!", "A little chilly out!", "Not too bad!", "Toasty!"], "product": {"thekidwho": {"header": "Maybe we should stay in today!", "copy": "%{link} has the perfect indoor solution! Also powered by Shopify.", "linkcopy": "The Kid Who"}, "lindsayletter": {"header": "A nice warm cup of hot chocolate should be nice!", "copy": "Check out %{link}'s beautifully designed mugs, also powered by Shopify!", "linkcopy": "Lindsay Letter"}, "leif": {"header": "A warm, cozy blanket is in order!", "copy": "Check out %{link}'s fuzzy offerings! Also powered by Shopify!", "linkcopy": "Leif"}, "helmboots": {"header": "It's about that time of the year for boots.", "copy": "Check out %{link} for some great boots. Powered by Shopify!", "linkcopy": "Helm Boots"}, "bestmade": {"header": "Perfect for camping!", "copy": "Check out %{link}'s camping gear, also powered by Shopify!", "linkcopy": "Best Made"}, "purefix": {"header": "Prime biking weather!", "copy": "Check out %{link}, also powered by Shopify!", "linkcopy": "Pure Fix Cycles"}}}}, "forgot_password": {"errors": {"email": {"empty": "Please enter an email address", "error": "Sorry, we ran into an issue. Please check the email address you entered.", "throttled": "There were too many attempts from your IP. Please try again later."}}}}, "activemodel": {"errors": {"messages": {"ajax": "Oops! Something went wrong submitting your form. Please try again later.", "bad_protocol": "We'll need a url starting with %{protocols}", "bad_uri": "We'll need a valid url", "email": "We'll need a valid email address"}}}, "article": {"shares": "shares"}};
+        </script>
+
+        <script src="../../cdn.shopify.com/assets2/standalone/plus/pages/contact-a7544cfb4e891d344a5562f06f4029e9.js"></script>
+        <script src="http://segment-pixel.invitemedia.com/pixel?pixelID=79152&amp;partnerID=340&amp;clientID=6481&amp;key=segment&amp;returnType=js"></script>
+        <noscript>
+        <img src="http://segment-pixel.invitemedia.com/pixel?pixelID=79152&amp;partnerID=340&amp;clientID=6481&amp;key=segment" width="1" height="1" />
+        </noscript>
+
+        <script type="text/javascript">
+              (function() {
+                  window._fbds = window._fbds || {};
+                  _fbds.pixelId = 1456296564592384;
+                  var fbds = document.createElement('script');
+                  fbds.async = true;
+                  fbds.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//connect.facebook.net/en_US/fbds.js';
+                  var s = document.getElementsByTagName('script')[0];
+                  s.parentNode.insertBefore(fbds, s);
+              })();
+              window._fbq = window._fbq || [];
+              window._fbq.push(["track", "PixelInitialzed", {}]);
+        </script>
+        <noscript><img height="0" width="0" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1456296564592384"/></noscript>
+
+        <script type="text/javascript">
+            setTimeout(function() {
+                var a = document.createElement("script");
+                var b = document.getElementsByTagName("script")[0];
+                a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0012/4914.js?" + Math.floor(new Date().getTime() / 3600000);
+                a.async = true;
+                a.type = "text/javascript";
+                b.parentNode.insertBefore(a, b)
+            }, 1);
+        </script>
+
+
+        <script type="text/javascript">
+            (function(r) {
+                var brandedKeyword = function(ref) {
+                    var match1 = new RegExp("((google|yahoo|bing)(.*)&?q=([^&]*)shopify)", "gi").test(ref);
+                    return (match1);
+                }
+
+                var match1 = new RegExp("[\\?&](source|r|ref)=([^&#]*)", "gi").exec(r);
+                if (match1 && !brandedKeyword(document.referrer)) {
+                    var days = 30;
+                    var date = new Date();
+                    date.setTime(date.getTime() + days * 86400000);
+                    document.cookie = "source=" + match1[2] + ";expires=" + date.toUTCString() + ";path=/";
+                }
+            })(window.location.href);
+        </script>
+
+        <script>(function() {
+                var _fbq = window._fbq || (window._fbq = []);
+                if (!_fbq.loaded) {
+                    var fbds = document.createElement('script');
+                    fbds.async = true;
+                    fbds.src = '../../connect.facebook.net/en_US/fbds.js';
+                    var s = document.getElementsByTagName('script')[0];
+                    s.parentNode.insertBefore(fbds, s);
+                    _fbq.loaded = true;
+                }
+                _fbq.push(['addPixelId', '1464046983855577']);
+            })();
+            window._fbq = window._fbq || [];
+            window._fbq.push(['track', 'PixelInitialized', {}]);
+        </script>
+        <noscript>
+        <img height="0" width="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1464046983855577&amp;ev=PixelInitialized" />
+        </noscript>
+
+        <script type="text/javascript">
+            piAId = '72142';
+            piCId = '1320';
+
+            (function() {
+                function async_load() {
+                    var s = document.createElement('script');
+                    s.type = 'text/javascript';
+                    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
+                    var c = document.getElementsByTagName('script')[0];
+                    c.parentNode.insertBefore(s, c);
+                }
+                if (window.attachEvent) {
+                    window.attachEvent('onload', async_load);
+                }
+                else {
+                    window.addEventListener('load', async_load, false);
+                }
+            })();
+        </script>
+
+        <script type="text/javascript" id="inspectletjs">
+            window.__insp = window.__insp || [];
+            __insp.push(['wid', 443176196]);
+            (function() {
+                function __ldinsp() {
+                    var insp = document.createElement('script');
+                    insp.type = 'text/javascript';
+                    insp.async = true;
+                    insp.id = "inspsync";
+                    insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js';
+                    var x = document.getElementsByTagName('script')[0];
+                    x.parentNode.insertBefore(insp, x);
+                }
+                if (window.attachEvent)
+                    window.attachEvent('onload', __ldinsp);
+                else
+                    window.addEventListener('load', __ldinsp, false);
+            })();
+        </script>
+
+        <script>
+            !function(f, b, e, v, n, t, s) {
+                if (f.fbq)
+                    return;
+                n = f.fbq = function() {
+                    n.callMethod ?
+                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+                };
+                if (!f._fbq)
+                    f._fbq = n;
+                n.push = n;
+                n.loaded = !0;
+                n.version = '2.0';
+                n.queue = [];
+                t = b.createElement(e);
+                t.async = !0;
+                t.src = v;
+                s = b.getElementsByTagName(e)[0];
+                s.parentNode.insertBefore(t, s)
+            }(window,
+                    document, 'script', '../../connect.facebook.net/en_US/fbevents.js');
+
+            fbq('init', '1904241839800487');
+            fbq('track', "PageView");
+        </script>
+        <noscript>
+        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1904241839800487&amp;ev=PageView&amp;noscript=1" />
+        </noscript>
+
+        <script type="text/javascript">
+            var _bizo_data_partner_id = "9497";
+
+            (function() {
+                var s = document.getElementsByTagName("script")[0];
+                var b = document.createElement("script");
+                b.type = "text/javascript";
+                b.async = true;
+                b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
+                s.parentNode.insertBefore(b, s);
+            })();
+        </script>
+        <noscript>
+        <img height="1" width="1" style="display:none;" src="http://www.bizographics.com/collect/?pid=9497&amp;fmt=gif" />
+        </noscript>
+
+
+
+        <div id="GlobalIconSymbols" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg"></svg></div>
+
+
+    </body>
+
+    <!-- Mirrored from www.shopify.in/plus/contact by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 11 Apr 2016 16:59:07 GMT -->
+</html>
+
