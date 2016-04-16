@@ -6,22 +6,27 @@
 
 
 
-$(document).ready(function(){
-  
-  
+$(document).ready(function() {
+
+
     $(".gridc").gridalicious({
-  gutter: 6,
-   
-   animate: true,
-  animationOptions: {
-    queue: true,
-    speed: 200,
-    duration: 300,
-    effect: 'fadeInOnAppear',
-    
-     
-    
-  }
-  });
-  $(".fancybox").fancybox();
- });
+        gutter: 6,
+        animate: true,
+        animationOptions: {
+            queue: true,
+            speed: 200,
+            duration: 300,
+            effect: 'fadeInOnAppear',
+        }
+    });
+   $(".fancybox")
+    .attr('rel', 'gallery')
+    .fancybox({
+        openEffect  : 'none',
+        closeEffect : 'none',
+        nextEffect  : 'none',
+        prevEffect  : 'none',
+        padding     : 0,
+        margin      : [20, 60, 20, 60] // Increase left/right margin
+    });
+});
