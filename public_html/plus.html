@@ -8,6 +8,7 @@
 
         <link href='https://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
         <link href="css/jquery.fancybox.css" rel="stylesheet" type="text/css"/>
+
         <title>
             Santram Physics Zone
         </title>
@@ -45,29 +46,33 @@
                             <ul class="marketing-nav__items display--desktop">
 
                                 <li>
-                                    <a class="display--mobile marketing-nav__item active" itemprop="name" href="index.html">Home</a>
+                                    <a class="display--mobile marketing-nav__item active" >Home</a>
                                 </li>
 
 
                                 <li>
-                                    <a class="marketing-nav__item " itemprop="name" href="#">Home</a>
+                                    <a class="marketing-nav__item " rel="relativeanchor" href="#home_top" >Home</a>
                                 </li>
 
 
                                 <li>
-                                    <a class="marketing-nav__item " itemprop="name" href="#">Our Goals</a>
+                                    <a class="marketing-nav__item " rel="relativeanchor" href="#first-scroll">Our Goals</a>
+                                </li>
+                                <li>
+                                    <a class="marketing-nav__item " rel="relativeanchor" href="#result">Results</a>
+                                </li>
+
+                                <li>
+                                    <a class="marketing-nav__item " rel="relativeanchor" href="#photo">Photo Gallery</a>
                                 </li>
 
 
                                 <li>
-                                    <a class="marketing-nav__item " itemprop="name" href="#">Photo Gallery</a>
+                                   <a class="marketing-nav__item " rel="relativeanchor" href="#about">About</a>
                                 </li>
-
-
                                 <li>
-                                    <a class="js-unset-contact-header marketing-nav__item--get-started marketing-nav__item " itemprop="name" href="#">About Us</a>
+                                    <a class="marketing-nav__item " rel="relativeanchor" href="#contact">Contact Us</a>
                                 </li>
-
 
                             </ul>
 
@@ -91,23 +96,25 @@
                         <nav role="navigation" aria-label="Main Site Navigation">
                             <ul class="drawer__items drawer__items--primary">
                                 <li>
-                                    <a href="index.html">Home</a>
+                                    <a href="#home_top" rel="relativeanchor">Home</a>
                                 </li>
 
                                 <li>
-                                    <a href="plus/features.html">Features</a>
+                                    <a href="#first-scroll" rel="relativeanchor">Our Goals</a>
+                                </li>
+                                <li>
+                                    <a href="#result" rel="relativeanchor">Results</a>
+                                </li>
+                                <li>
+                                    <a href="#photo" rel="relativeanchor">Photo Gallery</a>
                                 </li>
 
                                 <li>
-                                    <a href="plus/customers.html">Customers</a>
+                                    <a href="#about" rel="relativeanchor">About Us</a>
                                 </li>
 
                                 <li>
-                                    <a href="plus/partners.html">Partners</a>
-                                </li>
-
-                                <li>
-                                    <a href="plus/contact.html">Get Started</a>
+                                    <a href="#contact" rel="relativeanchor">Contact Us</a>
                                 </li>
 
 
@@ -125,7 +132,7 @@
 
 
                     <div class="page-block page-block--home-hero">
-                        <div class="page-width page_full">
+                        <div class="page-width page_full" id="home_top">
                             <div class="grid-container plus-header plus-header--home" >
                                 <div class="grid-16">
                                     <div class="grid-6">
@@ -136,7 +143,7 @@
                                 </div>
 
                                 <div class="grid-7 grid--last" data-stellar-ratio="1.2">
-                                    <div class='plus-header--home__content animate-content-up animate-content-up--first'>
+                                    <div class='plus-header--home__content animate-content-up animate-content-up--first ban_hieght'>
                                         <!--Subhead-->
 
                                         <!-- Heading-->
@@ -150,8 +157,8 @@
 
 
 
-                                        <a title="Get started" class="js-set-contact-header plus-button plus-button__icon-wrapper" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Hero banner: Get started" data-contact-header="Experience enterprise grade ecommerce" href="plus/contact.html">
-                                            Get started&nbsp;<i class='plus-button__icon'></i>
+                                        <a  class="js-set-contact-header plus-button plus-button__icon-wrapper" rel="relativeanchor"   href="#contact">
+                                            Contact Us&nbsp;<i class='plus-button__icon'></i>
                                         </a>
 
 
@@ -227,7 +234,7 @@
                     </div>
 
 
-                    <div class="page-block">
+                    <div class="page-block" id="first-scroll">
                         <div class="page-width">
                             <div class='grid-container'>
                                 <div class="grid-3 clearfix" data-stellar-ratio="1">
@@ -239,31 +246,38 @@
                                         <!--Subhead-->
 
                                         <!-- Heading-->
-                                        <h2>Faith and Service</h2>
+                                        <h2>Our Goals
+                                        </h2>
 
                                         <!--Body Content-->
-                                        <p>Change yourself with us. Then tackle the world.
-                                            Who we are determines what we do. We seek knowledge and engage with society. 
+                                        <p>
+                                            The main objective of  Santram Physics Zone is to track the talented bunch of students from economically 
+                                            impoverished sections and hone their skills by providing a conducive environment.
+                                            Talent knows no 
+                                            boundaries. It is everywhere. All one needs is to spot talent and nurture it to let it blossom.
                                         </p>
 
 
+                                        <a  class="js-set-contact-header plus-button plus-button__icon-wrapper" rel="relativeanchor"   href="#result">
 
-                                        <a title="View case studies" class="plus-button plus-button__icon-wrapper" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Trusted brands: View case studies" data-contact-header="null" href="plus/customers.html">
-                                            View case studies&nbsp;<i class='plus-button__icon'></i>
+                                            View Students Results&nbsp;<i class='plus-button__icon'></i>
                                         </a>
 
 
                                         <!--Body Content-->
                                         <blockquote class="">
-                                            <p class="">Shopify is better than any other platform we’ve ever played with, and we’ve played with them all.
+                                            <p class="">
+
+                                                A single conversation across the table with a wise man is better than ten years mere study of books.
+
                                             </p>
                                         </blockquote>
 
                                         <!-- Citation-->
 
                                         <div class="quote-attribution">
-                                            <span class="quote-attribution__author">Jonathan Bayme </span>
-                                            CEO of Theory11
+                                            <span class="quote-attribution__author">Henry Wadsworth Longfellow </span>
+
                                         </div>
 
 
@@ -337,30 +351,36 @@
                                         <!--Subhead-->
 
                                         <!-- Heading-->
-                                        <h2>One of the world’s most scalable platforms</h2>
+                                        <h2>Why Choose Us?</h2>
 
                                         <!--Body Content-->
-                                        <p>Processing billions of dollars a year, Shopify’s highly distributed, multi-tenant platform can handle anything you throw at it. Our proven platform drives down IT costs to a fraction of traditional offerings so you never have to worry about paying for bandwidth, rack space, or transaction fees ever again.
+                                        <p>
+                                            We place our students’ needs first,We 
+                                            offer what truly matters—quality and 
+                                            experience! Our decade long experience in this
+                                            field has equipped us with enough knowledge of 
+                                            specific requirements of students and accordingly 
+                                            we have a well designed road map for you.   
                                         </p>
 
 
 
-                                        <a title="Find out how" class="js-set-contact-header plus-button plus-button__icon-wrapper" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Most scalable: Find out how" data-contact-header="Find out how you can save with Shopify Plus" href="plus/contact.html">
-                                            Find out how&nbsp;<i class='plus-button__icon'></i>
+                                        <a  class="js-set-contact-header plus-button plus-button__icon-wrapper" rel="relativeanchor"   href="#photo">
+                                            Photo Gallery &nbsp;<i class='plus-button__icon'></i>
                                         </a>
 
 
                                         <!--Body Content-->
                                         <blockquote class="">
-                                            <p class="">Other options would have cost us tens of thousands of dollars up front. Allocating money to R&amp;D instead of web hosting was so much better spent.
+                                            <p class="">All Birds find shelter during a rain. But Eagle avoids rain by flying above the Clouds.
                                             </p>
                                         </blockquote>
 
                                         <!-- Citation-->
 
                                         <div class="quote-attribution">
-                                            <span class="quote-attribution__author">Cameron Parker </span>
-                                            Head of Marketing at Black Milk Clothing
+                                            <span class="quote-attribution__author">Dr.      A.P.J Abdul Kalam </span>
+
                                         </div>
 
                                     </div>      </div>
@@ -381,23 +401,12 @@
 
 
 
-                                    <div class="plus-block--dark plus-block--short display--mobile plus-block"  >
-                                        <i class='icon plus-icon channel-icons'>
-                                            <span class='visuallyhidden'>Facebook, Twitter, and Pinterest logos</span>
-                                        </i>
-                                    </div>
+                                  
 
 
 
 
 
-                                    <div class="plus-block--dark clearfix hide--mobile">
-
-
-
-
-
-                                    </div>
 
                                 </div>
 
@@ -406,35 +415,40 @@
                                         <!--Subhead-->
 
                                         <!-- Heading-->
-                                        <h2>Sell on any channel from one platform</h2>
+                                        <h2>One of the Ahmedabad’s most famous couching center</h2>
 
                                         <!--Body Content-->
-                                        <p>Shopify Plus makes it easy to sell your products on all major social networks and marketplaces. Shopify Plus’ multichannel capabilities drive customer engagement, increase sales, and improve brand awareness across any channel you need.
+                                        <p>Change yourself with us. Then tackle the world.
+                                            Who we are determines what we do. We seek knowledge and engage with society. 
                                         </p>
 
 
 
-                                        <a title="Start selling" class="js-set-contact-header plus-button plus-button__icon-wrapper" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Sell anywhere: Start selling" data-contact-header="Start selling with Shopify Plus" href="plus/contact.html">
-                                            Start selling&nbsp;<i class='plus-button__icon'></i>
+                                        <a  class="js-set-contact-header plus-button plus-button__icon-wrapper" rel="relativeanchor"   href="#about">
+                                            About Us &nbsp;<i class='plus-button__icon'></i>
                                         </a>
 
 
                                         <!--Body Content-->
                                         <blockquote class="">
-                                            <p class="">The fact that everything links up gives us an impressively slick operation.</p>
+                                            <p class="">A library is the delivery 
+                                                room for the birth of ideas, 
+                                                a place where history comes to life.
+                                            </p>
                                         </blockquote>
 
                                         <!-- Citation-->
 
                                         <div class="quote-attribution">
-                                            <span class="quote-attribution__author">Neil Waller </span>
-                                            Co­Founder Shore Projects
+                                            <span class="quote-attribution__author">Norman Cousins
+                                            </span>
+
                                         </div>
 
 
                                     </div>      </div>
 
-                                <div class="grid-4 grid-push-1 hide--mobile" data-stellar-ratio="1.2">
+                                <div class="grid-4 grid-push-1" data-stellar-ratio="1.2">
 
                                     <div class="phy_img">
                                         <img src="pic/phy.png">
@@ -448,323 +462,141 @@
                         </div>
                     </div>
 
-                    <div class="page-block">
-                        <div class="page-width">
-                            <div class="grid-container">
-                                <div class="grid-7" data-stellar-ratio="1">
+                    <div class="page-block" id="result">
+                        <h2 class="text-center">Results</h2>
+                        <div class="gridc result">
+                            <a class="item fancybox" href="pic/result/result.jpg"><img src="pic/result/result.jpg" class="img-responsive"></a>
+                            <a class="item fancybox" href="pic/result/result2.jpg"><img src="pic/result/result2.jpg" class="img-responsive"></a>
+                            <a class="item fancybox" href="pic/result/result3.jpg"><img src="pic/result/result3.jpg" class="img-responsive"></a>
+                            <a class="item fancybox" href="pic/result/result4.jpg"><img src="pic/result/result4.jpg" class="img-responsive"></a>
+                            <a class="item fancybox" href="pic/result/result5.jpg"><img src="pic/result/result5.jpg" class="img-responsive"></a>
+                        </div>
 
+                    </div>
 
-                                    <!--[if IE 9]><video style="display: none;"><![endif]-->
+                    <div id="photo" class="page-block">
+                        <h2 class="text-center">Farewell Party Photos</h2>
+                        <div class="clearfix gridc">
+                            <a class="item fancybox" href="#ph1"><img src="pic/party/1.jpg"></a>
+                            <a class="item fancybox" href="#ph2"> <img src="pic/party/2.jpg"></a>
+                            <a class="item fancybox" href="#ph3">   <img src="pic/party/3 (1).jpg"></a>
+                            <a class="item fancybox" href="#ph4"><img src="pic/party/3.jpg"></a>
+                            <a class="item fancybox" href="#ph5">   <img src="pic/party/4.jpg"></a>
+                            <a class="item fancybox" href="#ph6">   <img src="pic/party/4.jpg"></a>
+                            <a class="item fancybox" href="#ph7">   <img src="pic/party/5.jpg"></a>
+                            <a class="item fancybox" href="#ph8">   <img src="pic/party/6.jpg"></a>
+                            <a class="item fancybox" href="#ph9">   <img src="pic/party/9.jpg"></a>
+                            <a class="item fancybox" href="#ph10">   <img src="pic/party/10.jpg"></a>
+                            <a class="item fancybox" href="#ph11">   <img src="pic/party/7.jpg" style="max-height: 146px"></a>
+                            <a class="item fancybox" href="#ph12">  <img src="pic/party/8.jpg" style="max-height: 146px"></a>
 
-                                    <!--[if IE 9]></video><![endif]-->
-                                    <img src="https://cdn.shopify.com/assets2/plus/pages/index/onboarding@mobile-f549d0b26d3d510e9378234f243145f1.jpg 1x, https://cdn.shopify.com/assets2/plus/pages/index/onboarding@mobile-2x-978fa856513dd169d41a399bd12432ab.jpg 2x" alt="Shopify Plus support team helping merchants" class="">
+                        </div>
+                        <div style="display: none" class="fanc">
+                            <img id="ph1" src="pic/party/1.jpg" >
+                            <img id="ph2" src="pic/party/2.jpg">
+                            <img id="ph3" src="pic/party/3 (1).jpg">
+                            <img id="ph4" src="pic/party/3.jpg">
+                            <img id="ph5" src="pic/party/4.jpg">
+                            <img id="ph6" src="pic/party/4.jpg">
+                            <img id="ph7" src="pic/party/5.jpg">
+                            <img id="ph8" src="pic/party/6.jpg">
+                            <img id="ph9" src="pic/party/9.jpg">
+                            <img id="ph10" src="pic/party/10.jpg">
+                            <img id="ph11" src="pic/party/7.jpg" >
+                            <img id="ph12" src="pic/party/8.jpg" >
 
-
-                                    <div class="grid-8 hide--mobile">
-
-                                        <div class="plus-block--short plus-block--onboarding plus-block">
-                                            <h2 class='plus-block__heading'>
-                                                Dedicated
-                                            </h2>
-
-                                            <p class='plus-block__content'>
-                                                24/7 live support
-                                            </p>
-                                        </div>
-
-
-
-
-                                    </div>
-
-                                    <div class="grid-8 hide--mobile"  data-stellar-ratio="1.2">
-
-                                        <div class="plus-block--highlight plus-block--offset-up--triple plus-block">
-                                            <h2 class='plus-block__heading'>
-                                                Launch
-                                            </h2>
-
-                                            <p class='plus-block__content'>
-                                                in weeks, not months
-                                            </p>
-                                        </div>
-
-
-
-
-                                    </div>
-                                </div>
-
-                                <div class="grid-6 grid-push-1" data-stellar-ratio="1.1">
-                                    <div class="plus-content-wrapper">
-                                        <!--Subhead-->
-
-                                        <!-- Heading-->
-                                        <h2>Focus on your business not your ecommerce platform</h2>
-
-                                        <!--Body Content-->
-                                        <p>Picking a new enterprise ecommerce platform is a big decision. With Shopify Plus, we’ll make it an easy and safe choice. Our expert team of account managers, technical designers and dedicated support ensure that your transition to Shopify Plus is smooth, fast and painless.
-                                        </p>
-
-
-
-                                        <a title="Move now" class="plus-button plus-button__icon-wrapper" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Time is valuable: Start now" data-contact-header="null" href="plus/contact.html">
-                                            Move now&nbsp;<i class='plus-button__icon'></i>
-                                        </a>
-
-
-                                        <!--Body Content-->
-                                        <blockquote class="">
-                                            <p class="">This is a project that normally would have taken us two years, but we had this entire project set up in just two months.</p>
-                                        </blockquote>
-
-                                        <!-- Citation-->
-
-                                        <div class="quote-attribution">
-                                            <span class="quote-attribution__author">Valerie Moens </span>
-                                            Corporate Affairs at Oreo
-                                        </div>
-
-
-                                    </div>      </div>
-
-                            </div>
                         </div>
                     </div>
 
+                    <div class="page-block" id="about">
+                        <h2 class="text-center">About Us</h2>
+                        <p class="text-center">
+                            The Santram Physics Zone established in year 1998.
+                            The Santram Physics Zone is promoted by Mr Jignesh Patil.
+                            Today The Santram Physics Zone become a one of the big institute 
+                            of Ahmedabad with 1000 + students. Every year student of our institute 
+                            get rank in state board examination.we provide GSEB - CBSE - ICSE Board 
+                            Education.
+                        </p>
+                        <blockquote class="text-center">
+                            <p class="">
 
-                    <div class="clearfix gridc">
-                        <div class="item fancybox" href="#ph1"><img src="pic/party/1.jpg"></div>
-                        <div class="item fancybox" href="#ph2"> <img src="pic/party/2.jpg"></div>
-                        <div class="item fancybox" href="#ph3">   <img src="pic/party/3 (1).jpg"></div>
-                        <div class="item fancybox" href="#ph4"><img src="pic/party/3.jpg"></div>
-                        <div class="item fancybox" href="#ph5">   <img src="pic/party/4.jpg"></div>
-                        <div class="item fancybox" href="#ph6">   <img src="pic/party/4.jpg"></div>
-                        <div class="item fancybox" href="#ph7">   <img src="pic/party/5.jpg"></div>
-                        <div class="item fancybox" href="#ph8">   <img src="pic/party/6.jpg"></div>
-                        <div class="item fancybox" href="#ph9">   <img src="pic/party/result.jpg"></div>
-                        <div class="item fancybox" href="#ph10">   <img src="pic/party/result2.jpg"></div>
-                        <div class="item fancybox" href="#ph11">   <img src="pic/party/result3.jpg" style="max-height: 146px"></div>
-                        <div class="item fancybox" href="#ph12">  <img src="pic/party/result4.jpg" style="max-height: 146px"></div>
+                                The success of The Santram Physics Zone is
+                                largely due to its trained, qualified and committed
+                                teaching team and the extensive use of technology
+                                in teaching.
+                            </p><br/>   <br/>
+                        </blockquote>
+
+                        <!-- Citation-->
+                        <p class="text-center">
+                            Our scholastic record, innovative learning methods 
+                            and strong commitment to delivering quality through
+                            integrity has helped us scale heights that few have
+                            managed in the field of education.
+                        </p>
+
 
                     </div>
-                    <div style="display: none" class="fanc">
-                        <img id="ph1" src="pic/party/1.jpg">
-                        <img id="ph2" src="pic/party/2.jpg">
-                        <img id="ph3" src="pic/party/3 (1).jpg">
-                        <img id="ph4" src="pic/party/3.jpg">
-                        <img id="ph5" src="pic/party/4.jpg">
-                        <img id="ph6" src="pic/party/4.jpg">
-                        <img id="ph7" src="pic/party/5.jpg">
-                        <img id="ph8" src="pic/party/6.jpg">
-                        <img id="ph9" src="pic/party/result.jpg">
-                        <img id="ph10" src="pic/party/result2.jpg">
-                        <img id="ph11" src="pic/party/result3.jpg" >
-                        <img id="ph12" src="pic/party/result4.jpg" >
+                    <div class="page-block " id="contact">
+                        <h2 class="text-center">Contact Us</h2>
+                        <div class="map">
+                            <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+                            <div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'>
+
+                                </div>
+                                <div><small><a href="http://embedgooglemaps.com">									embed google maps							</a></small></div><div><small><a href="http://freedirectorysubmissionsites.com/">free web directories</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map() {
+                                            var myOptions = {zoom: 17, center: new google.maps.LatLng(22.997150749918163, 72.63591332061152), mapTypeId: google.maps.MapTypeId.ROADMAP};
+                                            map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);
+                                            marker = new google.maps.Marker({map: map, position: new google.maps.LatLng(22.997150749918163, 72.63591332061152)});
+                                            infowindow = new google.maps.InfoWindow({content: '<strong>Santram Phyzics Zone</strong><br>Krishna Complex, Opp. Jogehwari Albad, Kailash Colony, C.T.M, Amraiwadi, Ahmedabad, Gujarat 380038<br>'});
+                                            google.maps.event.addListener(marker, 'click', function() {
+                                                infowindow.open(map, marker);
+                                            });
+                                            infowindow.open(map, marker);
+                                        }
+                                        google.maps.event.addDomListener(window, 'load', init_map);</script>
+                        </div>
+                        <div class="address">
+                            <h4 class="text-center">OUR OFFICE  ADDRESS </h4>  
+                            <p class="text-center">
+                                307 , 3rd Floor , Krishna Complex , Nr Wonder Point ,
+                                C.T.M, Ahmedabad - 26.<br/>
+
+                            </p>
+                        </div>
 
                     </div>
                 </main>
 
                 <footer class='plus-footer animate-content-up animate-content-up--last'>
-                    <div class="footer--main page-block page-block--lowlight page-block--footer">
+                    <div class="footer--main page-block page-block--lowlight page-block--footer" >
                         <div class="page-width">
-                            <h2 class='lowlight__heading'>
-                                Looking for more information?
+                            <h2 class='lowlight__heading' id="contact">
+                                Looking for more Information or Admission ?
                             </h2>
 
                             <p class='plus-footer__subhead lowlight__heading'>
 
 
-                                Take a look at our <a class="lowlight__link" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Footer: Features" href="plus/features.html">features</a> or <a class="lowlight__link js-set-contact-header" data-ga-event="Shopify Plus home page" data-ga-action="Click CTA" data-ga-label="Footer: Contact us" data-contact-header="Learn more about Shopify Plus" href="plus/contact.html">contact us</a> anytime
+                                Call us on <a class="lowlight__link"  href="#">+91 9824240663 </a> anytime
 
                             </p>
 
 
                             <p class='plus-footer__disclaimer'>
-                                All rights reserved Shopify Inc. &copy; 2016 - <a href="index.html">Enterprise ecommerce</a>
+                                All rights reserved  Santram Physics Zone Inc. &copy; 2016
                             </p>
                         </div>
                     </div>
+
                 </footer>
 
 
             </div>
         </div>
 
-
-
-
-        <script src="../cdn.shopify.com/assets2/standalone/plus/application-d0467e8bfaa9a77ad8c1b3b308c00529.js"></script>
-
-        <script>
-            window.App.config = {
-                signupHost: 'app.shopify.com'
-            };
-        </script>
-
-
-        <script>
-            window.I18n.data = {"forms": {"errors": {"throttled": "Too many requests from this IP, try again later.", "global": {"generic": "Sorry, something went wrong. Please try again later."}, "shop_name": {"empty": "Please enter a store name", "minlength": "Your store name must be at least 4 characters", "existingAdmin": "A store with that name already exists. If you are the owner you can \u003ca href=\"https://%{err}/admin\"\u003elog in here\u003c/a\u003e", "message": "%{err}", "matchesPassword": "Your store name can't be the same as your password"}, "email": {"empty": "Please enter an email address", "invalid": "Please enter a valid email address", "member_exists": "You are already subscribed to this list", "generic": "Sorry, something went wrong. Please try again later."}, "password": {"empty": "Please enter a password", "minlength": "Password must be at least 5 characters", "spaces": "Password cannot contain spaces"}, "subdomain": {"empty": "Please enter a subdomain", "minlength": "Your subdomain must be at least 4 characters", "multiple": "Multiple subdomains are associated with this email", "suggest": "Did you mean %{err}?", "invalid": "Please enter a valid subdomain", "existingAdmin": "A store with that subdomain already exists. If you are the owner you can \u003ca href=\"https://%{err}/admin\"\u003elog in here\u003c/a\u003e"}}}, "modal": {"home": "Home", "close": "Close"}, "signup": {"header": "Start your free 14-day trial of Shopify", "create_now": "Create your store", "tooltip": "Start your free 14-day trial today!", "labels": {"email": "Email", "password": "Password", "shop_name": "Store name", "subdomain": "Store URL"}, "placeholders": {"shop_name": "Your store name", "email": "Email address", "password": "Password", "subdomain": "Store URL"}, "checking": "Checking...", "success_messages": {"email": "Got it", "password": "Looks great", "shop_name": "That name is available!", "subdomain": "You'll use this to log in to your store"}, "details": {"shop_name": "If you are the owner you can \u003ca href=\"https://%{admin}/admin\"\u003elog in here\u003c/a\u003e"}, "store_address_suffix": ".myshopify.com"}, "online": {"examples": {"modal": {"nav_next": "Next", "nav_prev": "Prev", "cta_title": "Start your free 14-day trial today!", "cta_button": "Get started", "themes_cta_button": "Start with this theme"}}}, "home": {"login": {"page_title": "Login — Shopify", "meta_description": "", "log_in_heading": "Log in to your Shopify store", "email_label": "Email address", "password_label": "Password", "store_address_label": "Store address", "store_address_suffix": ".myshopify.com", "store_address_placeholder": "your-store", "remember_label": "Remember me", "shopify_mobile": "Shopify Mobile", "mobile_link_alt_text": "Learn more", "mobile_cta": "Manage your store on the go from your iPhone", "promo_cta": {"heading_html": "Running a\u003cbr\u003e high volume store?", "link": "Discover our enterprise solution"}, "forgot": "Forgot?", "forgot_label": "Forgot your password?", "log_in": "Log in", "login_suggestion": {"part_1": "You can also login by adding", "slash_admin": "/admin", "part_2": "to the end of your myshopify.com address.", "example": "Example:", "example_url": "http://examplestore.myshopify.com/admin"}, "errors": {"no_match": "The email or password you entered is incorrect.", "subdomain": {"empty": "Please enter your store address.", "suggest": "Did you mean %{err}?", "invalid": "The store address you entered is incorrect. Check the email we sent when you created your store to find  your store address.", "multiple": "You have more than one store associated with your email address. Please enter your store address to login."}, "email": {"empty": "Please enter an email address", "invalid": "Please enter a valid email address"}, "password": {"empty": "Please enter a password", "minlength": "Password must be at least 5 characters", "spaces": "Password cannot contain spaces"}, "generic": {"invalid": "The email or password you entered is incorrect.", "throttled": "There were too many login attempts from your IP. Please try again later."}}, "multiple_domains": "Have multiple stores?"}, "logout": {"page_title": "You’ve successfully logged out.", "subhead_html": "Thank you for using Shopify. You can \u003ca href=\"/login\"\u003elog back in\u003c/a\u003e any time!", "meta_description": "Everything you need to sell. Build your online store with Shopify's ecommerce software and easily sell in person with Shopify's iPad POS.\n", "temperature": "Temperature", "weather": "Weather", "segments": {"weather": ["Freezing!", "It's cold out!", "Chilly!", "A little chilly out!", "Not too bad!", "Toasty!"], "product": {"thekidwho": {"header": "Maybe we should stay in today!", "copy": "%{link} has the perfect indoor solution! Also powered by Shopify.", "linkcopy": "The Kid Who"}, "lindsayletter": {"header": "A nice warm cup of hot chocolate should be nice!", "copy": "Check out %{link}'s beautifully designed mugs, also powered by Shopify!", "linkcopy": "Lindsay Letter"}, "leif": {"header": "A warm, cozy blanket is in order!", "copy": "Check out %{link}'s fuzzy offerings! Also powered by Shopify!", "linkcopy": "Leif"}, "helmboots": {"header": "It's about that time of the year for boots.", "copy": "Check out %{link} for some great boots. Powered by Shopify!", "linkcopy": "Helm Boots"}, "bestmade": {"header": "Perfect for camping!", "copy": "Check out %{link}'s camping gear, also powered by Shopify!", "linkcopy": "Best Made"}, "purefix": {"header": "Prime biking weather!", "copy": "Check out %{link}, also powered by Shopify!", "linkcopy": "Pure Fix Cycles"}}}}, "forgot_password": {"errors": {"email": {"empty": "Please enter an email address", "error": "Sorry, we ran into an issue. Please check the email address you entered.", "throttled": "There were too many attempts from your IP. Please try again later."}}}}, "activemodel": {"errors": {"messages": {"ajax": "Oops! Something went wrong submitting your form. Please try again later.", "bad_protocol": "We'll need a url starting with %{protocols}", "bad_uri": "We'll need a valid url", "email": "We'll need a valid email address"}}}, "article": {"shares": "shares"}};
-        </script>
-
-
-        <script src="http://segment-pixel.invitemedia.com/pixel?pixelID=79152&amp;partnerID=340&amp;clientID=6481&amp;key=segment&amp;returnType=js"></script>
-        <noscript>
-        <img src="http://segment-pixel.invitemedia.com/pixel?pixelID=79152&amp;partnerID=340&amp;clientID=6481&amp;key=segment" width="1" height="1" />
-        </noscript>
-
-        <script type="text/javascript">
-            (function() {
-                window._fbds = window._fbds || {};
-                _fbds.pixelId = 1456296564592384;
-                var fbds = document.createElement('script');
-                fbds.async = true;
-                fbds.src = ('https:' == document.location.protocol ? 'https:' : 'http:') + '//connect.facebook.net/en_US/fbds.js';
-                var s = document.getElementsByTagName('script')[0];
-                s.parentNode.insertBefore(fbds, s);
-            })();
-            window._fbq = window._fbq || [];
-            window._fbq.push(["track", "PixelInitialzed", {}]);
-        </script>
-        <noscript><img height="0" width="0" border="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1456296564592384"/></noscript>
-
-        <script type="text/javascript">
-            setTimeout(function() {
-                var a = document.createElement("script");
-                var b = document.getElementsByTagName("script")[0];
-                a.src = document.location.protocol + "//script.crazyegg.com/pages/scripts/0012/4914.js?" + Math.floor(new Date().getTime() / 3600000);
-                a.async = true;
-                a.type = "text/javascript";
-                b.parentNode.insertBefore(a, b)
-            }, 1);
-        </script>
-
-
-        <script type="text/javascript">
-            (function(r) {
-                var brandedKeyword = function(ref) {
-                    var match1 = new RegExp("((google|yahoo|bing)(.*)&?q=([^&]*)shopify)", "gi").test(ref);
-                    return (match1);
-                }
-
-                var match1 = new RegExp("[\\?&](source|r|ref)=([^&#]*)", "gi").exec(r);
-                if (match1 && !brandedKeyword(document.referrer)) {
-                    var days = 30;
-                    var date = new Date();
-                    date.setTime(date.getTime() + days * 86400000);
-                    document.cookie = "source=" + match1[2] + ";expires=" + date.toUTCString() + ";path=/";
-                }
-            })(window.location.href);
-        </script>
-
-        <script>(function() {
-                var _fbq = window._fbq || (window._fbq = []);
-                if (!_fbq.loaded) {
-                    var fbds = document.createElement('script');
-                    fbds.async = true;
-                    fbds.src = '../connect.facebook.net/en_US/fbds.js';
-                    var s = document.getElementsByTagName('script')[0];
-                    s.parentNode.insertBefore(fbds, s);
-                    _fbq.loaded = true;
-                }
-                _fbq.push(['addPixelId', '1464046983855577']);
-            })();
-            window._fbq = window._fbq || [];
-            window._fbq.push(['track', 'PixelInitialized', {}]);
-        </script>
-        <noscript>
-        <img height="0" width="0" alt="" style="display:none" src="https://www.facebook.com/tr?id=1464046983855577&amp;ev=PixelInitialized" />
-        </noscript>
-
-        <script type="text/javascript">
-            piAId = '72142';
-            piCId = '1320';
-
-            (function() {
-                function async_load() {
-                    var s = document.createElement('script');
-                    s.type = 'text/javascript';
-                    s.src = ('https:' == document.location.protocol ? 'https://pi' : 'http://cdn') + '.pardot.com/pd.js';
-                    var c = document.getElementsByTagName('script')[0];
-                    c.parentNode.insertBefore(s, c);
-                }
-                if (window.attachEvent) {
-                    window.attachEvent('onload', async_load);
-                }
-                else {
-                    window.addEventListener('load', async_load, false);
-                }
-            })();
-        </script>
-
-        <script type="text/javascript" id="inspectletjs">
-            window.__insp = window.__insp || [];
-            __insp.push(['wid', 443176196]);
-            (function() {
-                function __ldinsp() {
-                    var insp = document.createElement('script');
-                    insp.type = 'text/javascript';
-                    insp.async = true;
-                    insp.id = "inspsync";
-                    insp.src = ('https:' == document.location.protocol ? 'https' : 'http') + '://cdn.inspectlet.com/inspectlet.js';
-                    var x = document.getElementsByTagName('script')[0];
-                    x.parentNode.insertBefore(insp, x);
-                }
-                if (window.attachEvent)
-                    window.attachEvent('onload', __ldinsp);
-                else
-                    window.addEventListener('load', __ldinsp, false);
-            })();
-        </script>
-
-        <script>
-            !function(f, b, e, v, n, t, s) {
-                if (f.fbq)
-                    return;
-                n = f.fbq = function() {
-                    n.callMethod ?
-                            n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-                };
-                if (!f._fbq)
-                    f._fbq = n;
-                n.push = n;
-                n.loaded = !0;
-                n.version = '2.0';
-                n.queue = [];
-                t = b.createElement(e);
-                t.async = !0;
-                t.src = v;
-                s = b.getElementsByTagName(e)[0];
-                s.parentNode.insertBefore(t, s)
-            }(window,
-                    document, 'script', '../connect.facebook.net/en_US/fbevents.js');
-
-            fbq('init', '1904241839800487');
-            fbq('track', "PageView");
-        </script>
-        <noscript>
-        <img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=1904241839800487&amp;ev=PageView&amp;noscript=1" />
-        </noscript>
-
-        <script type="text/javascript">
-            var _bizo_data_partner_id = "9497";
-
-            (function() {
-                var s = document.getElementsByTagName("script")[0];
-                var b = document.createElement("script");
-                b.type = "text/javascript";
-                b.async = true;
-                b.src = (window.location.protocol === "https:" ? "https://sjs" : "http://js") + ".bizographics.com/insight.min.js";
-                s.parentNode.insertBefore(b, s);
-            })();
-        </script>
-        <noscript>
-        <img height="1" width="1" style="display:none;" src="http://www.bizographics.com/collect/?pid=9497&amp;fmt=gif" />
-        </noscript>
-
-
-
-        <div id="GlobalIconSymbols" style="display: none;"><svg xmlns="http://www.w3.org/2000/svg"></svg></div>
+        
 
 
         <script src="https://code.jquery.com/jquery-2.2.3.js"></script>
@@ -772,7 +604,9 @@
         <script src="js/jquery.mosaicflow.min.js"></script>
         <script src="assets2/custom.js" type="text/javascript"></script>
         <script src="js/collage.js"></script>
+        <script src="js/mo.js" type="text/javascript"></script>
         <script src="js/jquery.fancybox.js" type="text/javascript"></script>
+
         <script src="js/my.js"></script>
 
     </body>

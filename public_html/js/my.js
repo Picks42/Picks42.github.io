@@ -16,17 +16,16 @@ $(document).ready(function() {
             queue: true,
             speed: 200,
             duration: 300,
-            effect: 'fadeInOnAppear',
+            effect: 'fadeInOnAppear'
         }
     });
-   $(".fancybox")
-    .attr('rel', 'gallery')
-    .fancybox({
-        openEffect  : 'none',
-        closeEffect : 'none',
-        nextEffect  : 'none',
-        prevEffect  : 'none',
-        padding     : 0,
-        margin      : [20, 60, 20, 60] // Increase left/right margin
+    $(".fancybox").attr('rel', 'gallery').fancybox();
+
+    $('a[rel="relativeanchor"]').click(function() {
+        $('html, body').animate({
+            scrollTop: $($.attr(this, 'href')).offset().top - 65
+        }, 500);
+        return false;
     });
+
 });

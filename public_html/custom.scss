@@ -2679,7 +2679,7 @@ button {
     color: #666560
 }
 :-moz-any(.plus-form__select-wrapper)::after {
-    background-color: #f2f2f0;
+    background-color: #f2f2f0;  
     font-size: 1.125em
 }
 .no-placeholder .plus-form__label {
@@ -3416,26 +3416,30 @@ body{
     height: auto;
     max-width: 50px;
 }
-.fancybox-wrap{
-    z-index: 10000;
-}
-.fancybox-nav {
-    width: 60px;       
-}
 
-.fancybox-nav span {
-    visibility: visible;
-    opacity: 0.5;
-}
 
-.fancybox-nav:hover span {
-    opacity: 1;
-}
 
-.fancybox-next {
-    right: -60px;
-}
 
-.fancybox-prev {
-    left: -60px;
+ 
+
+
+.ban_hieght{
+    
+    height: 556px;
+}
+.text-center{
+    text-align: center; 
+    
+}
+.result_slider li img{
+    max-height: 550px;
+}
+.result a img{
+    max-height: 340px;
+}
+.map{
+    float: left;
+}
+.address{
+   padding-top:  10px;
 }
