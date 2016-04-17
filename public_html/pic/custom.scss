@@ -38,7 +38,7 @@ only screen and (min-resolution: 1.3dppx) {
         margin: 0 -100px;
         padding-left: 100px;
         padding-right: 80px;
-        background-image: url(../pic/backgrond-2.jpg);
+        background-image: url(backgrond-2.jpg);
         background-position-y: 100%; 
         background-size: 1400px auto;
     }
@@ -55,7 +55,7 @@ only screen and (min-width: 46.875em) and (min-resolution: 1.3dppx) {
 }
 @media screen and (min-width: 61.875em) {
     .plus-header--home {
-        background-image: url(../pic/backgrond-2.jpg);
+        background-image: url(backgrond-2.jpg);
         background-size: 1400px auto;
         background-position-y: 100%;
     }
@@ -66,7 +66,7 @@ only screen and (min-width: 61.875em) and (-webkit-min-device-pixel-ratio: 1.302
 only screen and (min-width: 61.875em) and (min-resolution: 125dpi),
 only screen and (min-width: 61.875em) and (min-resolution: 1.3dppx) {
     .plus-header--home {
-        background-image: url(../pic/backgrond-2.jpg);
+        background-image: url(backgrond-2.jpg);
         background-position-y: 100%;    
     }
 }
@@ -141,7 +141,7 @@ only screen and (min-resolution: 1.3dppx) {
     }
 }
 .icon-world-vision {
-    background-image: url(../pic/atom.jpg);
+    background-image: url(atom.jpg);
     max-width: 70%
 }
 @media screen and (min-width: 46.875em) and (max-width: 61.8125em) {
@@ -2268,7 +2268,7 @@ a:active {
     transform: translateY(20px)
 }
 .icon-world-vision {
-    background-image: url(../pic/atom.jpg);
+    background-image: url(atom.jpg);
     min-height: 50px
 }
 .icon-exida {
@@ -3389,7 +3389,7 @@ only screen and (max-width: 46.8125em) and (min-resolution: 1.3dppx) {
     margin-top: 250px;
 }
 .physics_iimg{
-    background: url(../pic/physics.jpg);
+    background: url(physics.jpg);
     background-size:cover;
     text-indent: -999999px;
 }
