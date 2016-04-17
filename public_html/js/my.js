@@ -28,9 +28,16 @@ $(document).ready(function() {
         return false;
     });
     $(".marketing-nav__hamburger").click(function (){
-        debugger;   
-       $("#NavDrawer").fadeIn();
-       $("#NavDrawer").css({"opacity": "1 !important", "font-size": "200%"});
+        
+       $("#NavDrawer").fadeIn(1000);
+       $(".drawer__items>li").css({"opacity":"1"});
+       $(".icon-close").css({"transform":"translateX(0px)"});
+       
+    });
+    $(".icon-close").click(function (){
+         $("#NavDrawer").fadeOut();
+       $(".drawer__items>li").css({"opacity":"0"});
+       $(".icon-close").css({"transform":"translateX(100px)"});
     });
 
 });
