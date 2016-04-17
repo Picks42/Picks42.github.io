@@ -27,5 +27,10 @@ $(document).ready(function() {
         }, 500);
         return false;
     });
+    $(".marketing-nav__hamburger").click(function (){
+        debugger;   
+       $("#NavDrawer").fadeIn();
+       $("#NavDrawer").css({"opacity": "1 !important", "font-size": "200%"});
+    });
 
 });
