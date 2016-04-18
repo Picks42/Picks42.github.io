@@ -34,7 +34,7 @@ $(document).ready(function() {
        $(".icon-close").css({"transform":"translateX(0px)"});
        
     });
-    $(".icon-close").click(function (){
+    $(".icon-close,.drawer__items  li a").click(function (){
          $("#NavDrawer").fadeOut();
        $(".drawer__items>li").css({"opacity":"0"});
        $(".icon-close").css({"transform":"translateX(100px)"});

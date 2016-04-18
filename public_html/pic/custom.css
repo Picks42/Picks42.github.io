@@ -28,7 +28,8 @@ and open the template in the editor.
 
 @media only screen and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min--moz-device-pixel-ratio: 1.3), only screen and (-webkit-min-device-pixel-ratio: 1.30208), only screen and (min-resolution: 125dpi), only screen and (min-resolution: 1.3dppx) {
   .plus-header--home {
-    background-image: url(https://cdn.shopify.com/assets2/plus/banners/home@mobile-2x-2407a46ed6d9f47bb47cb123bc43fafb.jpg);
+    background-image: url(backgrond-2.jpg);
+    background-size: 115%;
   }
 }
 @media screen and (min-width: 46.875em) {
@@ -39,6 +40,7 @@ and open the template in the editor.
     background-image: url(backgrond-2.jpg);
     background-position-y: 100%;
     background-size: 1400px auto;
+    
   }
 }
 @media only screen and (min-width: 46.875em) and (-webkit-min-device-pixel-ratio: 1.3), only screen and (min-width: 46.875em) and (min--moz-device-pixel-ratio: 1.3), only screen and (min-width: 46.875em) and (-webkit-min-device-pixel-ratio: 1.30208), only screen and (min-width: 46.875em) and (min-resolution: 125dpi), only screen and (min-width: 46.875em) and (min-resolution: 1.3dppx) {
@@ -1681,21 +1683,22 @@ ol li {
 }
 
 .drawer:before {
-  display: block;
-  content: '';
-  background: url("pic/loho.png  ") 0 0 no-repeat;
-  background-size: contain;
-  width: 7.5em;
-  top: 1.25em;
-  left: 30px;
-  height: 1.875em;
-  position: fixed;
+     display: block;
+    content: '';
+    background: url("loho.png") 0 0 no-repeat;
+    background-size: cover;
+    width: 14.5em;
+    top: 1.25em;
+    left: 50%;
+    height: 2.875em;
+    position: fixed;
+    transform: translateX(-50%);
 }
 
 .drawer__items {
   width: 100%;
   margin-left: 0;
-  margin-top: 4.0625em;
+  margin-top: 2.0625em;
 }
 
 .drawer__items > li {
@@ -3917,4 +3920,13 @@ body {
     padding: 0px 10px;
     max-height: 100% !important;
   }
+}
+a.item.fancybox img {
+    padding: 3px;
+    border-radius: 10px;
+}
+
+
+.fancybox-nav span{
+    visibility: visible !important;    
 }
