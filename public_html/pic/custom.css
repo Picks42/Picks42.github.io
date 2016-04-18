@@ -3930,3 +3930,6 @@ a.item.fancybox img {
 .fancybox-nav span{
     visibility: visible !important;    
 }
+.plus-nav__logo img{
+    max-width:230px;
+}
