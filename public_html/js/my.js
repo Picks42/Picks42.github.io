@@ -39,5 +39,19 @@ $(document).ready(function() {
        $(".drawer__items>li").css({"opacity":"0"});
        $(".icon-close").css({"transform":"translateX(100px)"});
     });
+    
 
 });
+
+ wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset:       100,
+        callback:     function(box) {
+      
+        }
+      }
+    );
+    wow.init();
+   
+       
