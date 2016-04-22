@@ -8,7 +8,7 @@
 
 $(document).ready(function() {
 
-   
+
     $(".fancybox").attr('rel', 'gallery').fancybox();
 
     $('a[rel="relativeanchor"]').click(function() {
@@ -30,29 +30,26 @@ $(document).ready(function() {
         $(".icon-close").css({"transform": "translateX(100px)"});
     });
 
-wow = new WOW(
-        {
-            animateClass: 'animated',
-            offset: 100,
-            callback: function(box) {
+    wow = new WOW(
+            {
+                animateClass: 'animated',
+                offset: 100,
+                callback: function(box) {
 
+                }
             }
-        }
-);
-wow.init();
+    );
+    wow.init();
+    setTimeout(function() {
+
+        $(".site_content").css({"opacity": "1"});
+        $(".pre-loder").hide();
+        $("body").css({"background": "#F2F2F0"});
+
+    }, 3000);
 
 
 });
-setTimeout(function(){
-    
-        $(".site_content").css({"opacity":"1"});
-        $(".pre-loder").hide();
-        $("body").css({"background": "#F2F2F0"});    
-    
-}, 3000);
- $(window).load(function() {
-        // When the page has loaded
-    
-    });
+
 
 
