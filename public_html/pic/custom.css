@@ -3904,9 +3904,15 @@ body {
 
 .result a img {
     max-height: 525px;
-    margin: 5px;
-}
+    margin: 5px 0px;
 
+
+}
+@media (max-width:991px){
+    .result a img {
+        padding: 0px 20px;
+    }
+}
 .address {
     padding-top: 10px;
 }
@@ -3944,8 +3950,8 @@ a.item.fancybox img {
     transform: translate(-50%,-50%);
 }
 .site_content{
- opacity: 0;
- transition:all 0.9s;
+    opacity: 0;
+    transition:all 0.9s;
 }
 .loader_h{
     position: absolute;
