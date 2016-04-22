@@ -40,16 +40,16 @@ $(document).ready(function() {
             }
     );
     wow.init();
-    setTimeout(function() {
+ 
+
+});
+
+
+   setTimeout(function() {
 
         $(".site_content").css({"opacity": "1"});
         $(".pre-loder").hide();
         $("body").css({"background": "#F2F2F0"});
 
     }, 3000);
-
-
-});
-
-
 
