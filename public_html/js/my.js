@@ -43,11 +43,16 @@ wow.init();
 
 
 });
- $(window).load(function() {
-        // When the page has loaded
-        $(".site_content").fadeIn(2000);
+setTimeout(function(){
+    
+        $(".site_content").css({"opacity":"1"});
         $(".pre-loder").hide();
         $("body").css({"background": "#F2F2F0"});    
+    
+}, 3000);
+ $(window).load(function() {
+        // When the page has loaded
+    
     });
 
 

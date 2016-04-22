@@ -3938,16 +3938,17 @@ a.item.fancybox img {
 .pre-loder img{
 
     max-width: 500px;
-    position: fixed;
+    position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 .site_content{
-    display: none;
+ opacity: 0;
+ transition:all 0.9s;
 }
 .loader_h{
-    position: fixed;
+    position: absolute;
     top: 100%;
     left: 50%;
     transform: translate(-50%,-100%);
