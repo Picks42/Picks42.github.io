@@ -3897,22 +3897,19 @@ body {
 .text-center {
     text-align: center;
 }
-
+.result{
+    padding: 0px 20px;
+}
 .result_slider li img {
     max-height: 550px;
 }
 
 .result a img {
-    max-height: 525px;
-    margin: 5px 0px;
+    max-height: 507px;
+    margin: 10px 0px;
+}
 
 
-}
-@media (max-width:991px){
-    .result a img {
-        padding: 0px 20px;
-    }
-}
 .address {
     padding-top: 10px;
 }
@@ -3944,7 +3941,7 @@ a.item.fancybox img {
 .pre-loder img{
 
     max-width: 500px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
@@ -3954,7 +3951,7 @@ a.item.fancybox img {
     transition:all 0.9s;
 }
 .loader_h{
-    position: absolute;
+    position: fixed;
     top: 100%;
     left: 50%;
     transform: translate(-50%,-100%);
