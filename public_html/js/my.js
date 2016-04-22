@@ -8,13 +8,7 @@
 
 $(document).ready(function() {
 
-    $(window).load(function() {
-        // When the page has loaded
-        $(".site_content").fadeIn(1000);
-        $(".pre-loder").hide();
-        $("body").css({"background": "#F2F2F0"});    
-    });
-
+   
     $(".fancybox").attr('rel', 'gallery').fancybox();
 
     $('a[rel="relativeanchor"]').click(function() {
@@ -36,9 +30,6 @@ $(document).ready(function() {
         $(".icon-close").css({"transform": "translateX(100px)"});
     });
 
-
-});
-
 wow = new WOW(
         {
             animateClass: 'animated',
@@ -49,5 +40,14 @@ wow = new WOW(
         }
 );
 wow.init();
+
+
+});
+ $(window).load(function() {
+        // When the page has loaded
+        $(".site_content").fadeIn(2000);
+        $(".pre-loder").hide();
+        $("body").css({"background": "#F2F2F0"});    
+    });
 
 

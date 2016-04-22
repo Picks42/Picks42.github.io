@@ -3948,8 +3948,8 @@ a.item.fancybox img {
 }
 .loader_h{
     position: fixed;
-    top: 65%;
+    top: 100%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-100%);
 
 }
