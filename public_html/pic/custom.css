@@ -1861,7 +1861,7 @@ ol li {
 body {
     margin: 0;
     padding: 0;
-    
+
 }
 
 .hidden {
@@ -3945,4 +3945,11 @@ a.item.fancybox img {
 }
 .site_content{
     display: none;
+}
+.loader_h{
+    position: fixed;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
 }
