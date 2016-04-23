@@ -3974,3 +3974,9 @@ a.item.fancybox img {
 .fancybox-prev span{
  opacity: .8;   
 }
+@media (max-width:767px){
+    .page-block{
+        padding: 15px;
+        padding-bottom: 40px;
+    }
+}

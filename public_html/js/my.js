@@ -51,5 +51,5 @@ $(document).ready(function() {
         $(".pre-loder").hide();
         $("body").css({"background": "#F2F2F0"});
 
-    }, 7000);
+    }, 6000);
 
