@@ -3946,7 +3946,7 @@ a.item.fancybox img {
 
 .pre-loder img{
 
-    max-width: 500px;
+    max-width: 250px;
     position: fixed;
     top: 50%;
     left: 50%;
