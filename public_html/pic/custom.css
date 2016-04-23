@@ -22,7 +22,7 @@ and open the template in the editor.
     background-position: 50% 0;
     margin: 0 -30px;
     padding-left: 30px;
-    background-image: url(../../../plus/banners/home%40mobile-de0a96c0c01dd31b9b7800310427be3e.jpg);
+  
     background-size: 100%;
 }
 
@@ -3907,9 +3907,12 @@ body {
 .result_slider li img {
     max-height: 550px;
 }
-
+.result .col-md-4{
+    text-align:center;
+}
 .result a img {
     max-height: 507px;
+    max-width: 416px;
     margin: 10px 0px;
 }
 

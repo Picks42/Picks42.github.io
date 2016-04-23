@@ -8,8 +8,10 @@
 
 $(document).ready(function() {
 
-
+if(window.screen.width > 500){
     $(".fancybox").attr('rel', 'gallery').fancybox();
+}
+    
 
     $('a[rel="relativeanchor"]').click(function() {
         $('html, body').animate({
