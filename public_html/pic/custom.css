@@ -1872,7 +1872,7 @@ main {
     position: relative;
     z-index: 1;
     background: #f2f2f0;
-    margin-top: 4.0625em;
+    padding-top: 4.0625em;
 }
 
 .page-block {
