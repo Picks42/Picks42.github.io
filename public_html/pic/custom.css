@@ -3988,3 +3988,19 @@ a.item.fancybox img {
         padding-right: 0;
     }
 }
+      
+        main {
+		width:100%;
+		
+		margin-bottom:500px;
+	
+	}
+        .plus-footer{
+            position:fixed;
+		bottom:0;
+		left:0;
+		width:100%;
+		height:auto;
+		z-index:-1;
+		
+        }
