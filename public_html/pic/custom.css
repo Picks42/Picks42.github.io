@@ -16,6 +16,7 @@ and open the template in the editor.
     .page-block--home-hero {
         padding-bottom: 40px;
     }
+    
 }
 .plus-header--home {
     background-repeat: no-repeat;
@@ -3981,5 +3982,9 @@ a.item.fancybox img {
     .page-block{
         padding: 15px;
         padding-bottom: 40px;
+    }
+    .page-block--home-hero{
+        padding-left: 0;
+        padding-right: 0;
     }
 }
