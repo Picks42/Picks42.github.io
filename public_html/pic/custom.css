@@ -3957,3 +3957,12 @@ a.item.fancybox img {
     transform: translate(-50%,-100%);
 
 }
+@media (max-width:767px){
+    
+    .loader_h{
+        font-size: 16px;
+    }
+    .map{
+        display: none;
+    }
+}
