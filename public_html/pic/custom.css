@@ -3099,7 +3099,7 @@ button {
     color: #666560;
 }
 
-:-moz-any(.plus-form__select-wrapper)::after {
+:-moz-any(plus-form__select-wrapper)::after {
     background-color: #f2f2f0;
     font-size: 1.125em;
 }
